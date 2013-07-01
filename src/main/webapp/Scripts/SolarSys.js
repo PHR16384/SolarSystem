@@ -118,21 +118,23 @@ $(document).on("pageinit", function()
 				html: e.data.TYPE + ":&nbsp; &ldquo;" + e.data.OBJ.Name + "&rdquo;"
 			}).prependTo( $Popup );
 			
+			$.each( e.data.OBJ, function(key,value){
+				if( key != "Name" ){
+					$Popup.append("<p><b>" + key + ":</b>&nbsp; " + value + "</p>");
+				}
+			});
+			
+			/*
+				DEPRECATED:  Use JSON data instead of hard-coding body-specific fields
+			
 			//stars, planets, etc. have different fields in the JSON file:
-			switch(e.data.type)
+			switch(e.data.TYPE)
 			{
-				case "Stars":
-					//alert("Data for stars.");
-					
-					break;
-				case "Planets":
-					//alert("Data for planets.");
-					
-					break;
 				default:
 					//alert("Data handler not set.");
 					break;
 			}
+			*/
 			
 			// close ("X") button:
 			$("<a/>", {

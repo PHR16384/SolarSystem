@@ -17,6 +17,7 @@
 	width: 224px;
 }
 	.CelBody img {
+		box-shadow: 0 0 4px 0 black;
 		height: 200px;
 		max-width: 100%;
 	}
@@ -25,12 +26,14 @@
 /* jQuery Mobile Theme mods: */
 
 .ui-popup {
+	min-height: 416px;
 	/* padding: 4px; */
 }
 .ui-popup > img {
-	/* float: left; */
+	box-shadow: 0 0 4px 0 black;
+	float: left;
 	max-height: 352px;
-	margin: 0 6px 12px;
+	margin: 0 12px 12px 6px;
 	width: 352px;
 }
 .ui-popup-container {
