@@ -1,0 +1,130 @@
+{
+	"version": "1.0",
+	"encoding": "UTF-8",
+	
+	"Name": "Solar System JSON Data",
+	
+	"Stars": [
+		{
+			"Name": "Sol",
+			"Class": "G2V",
+			"Luminosity": "1",
+			"Surface_Temp": "5860",
+			"Radius": "1",
+			"Rotation_Period": "25.380"
+		}
+	],
+	
+	"Planets": [
+		{
+			"Name": "Mercury",
+			"Radius": "2439.7",
+			"Mass": "3.3022 * 10^23",
+			"Aphelion": "69816900",
+			"Perihelion": "46001200",
+			"Orbit_Period": "87.969 d",
+			"Rotation_Period": "58.646 d",
+			"Surface_Temp": "340",
+			"Axial_Tilt": "2.11'",
+			"Gravity": "3.7",
+			"Albedo": "0.142"
+		},
+		{
+			"Name": "Venus",
+			"Radius": "6051.8",
+			"Mass": "4.8685 * 10^24",
+			"Aphelion": "108939000",
+			"Perihelion": "107477000",
+			"Orbit_Period": "224.698 d",
+			"Rotation_Period": "-243.0185 d",
+			"Surface_Temp": "735",
+			"Axial_Tilt": "177.3°",
+			"Gravity": "8.87",
+			"Albedo": "0.67"
+		},
+		{
+			"Name": "Earth",
+			"Radius": "6371.0",
+			"Mass": "5.9736 * 10^24",
+			"Aphelion": "152098232",
+			"Perihelion": "147098290",
+			"Orbit_Period": "365.256363004 d",
+			"Rotation_Period": "0.99726968 d",
+			"Surface_Temp": "288",
+			"Axial_Tilt": "23°26'21''.4119",
+			"Gravity": "9.780327",
+			"Albedo": "0.367",
+			
+			"Moons": [
+				{
+					"Name": "Moon"
+				}
+			]
+		},
+		{
+			"Name": "Mars",
+			"Radius": "3386.2",
+			"Mass": "6.4185 * 10^23",
+			"Aphelion": "249209300",
+			"Perihelion": "206669000",
+			"Orbit_Period": "686.971 d",
+			"Rotation_Period": "1.025957 d",
+			"Surface_Temp": "210",
+			"Axial_Tilt": "25.19°",
+			"Gravity": "3.711",
+			"Albedo": "0.170"
+		},
+		{
+			"Name": "Jupiter",
+			"Radius": "69911",
+			"Mass": "1.8986 * 10^27",
+			"Aphelion": "816520800",
+			"Perihelion": "740573600",
+			"Orbit_Period": "11.8618 yr",
+			"Rotation_Period": "9.925 h",
+			"Surface_Temp": "165",
+			"Axial_Tilt": "3.13°",
+			"Gravity": "24.79",
+			"Albedo": "0.52"
+		},
+		{
+			"Name": "Saturn",
+			"Radius": "60268",
+			"Mass": "5.6846 * 10^26",
+			"Aphelion": "1513325783",
+			"Perihelion": "1353572956",
+			"Orbit_Period": "29.4571 yr",
+			"Rotation_Period": "10.57 h",
+			"Surface_Temp": "134",
+			"Axial_Tilt": "26.73°",
+			"Gravity": "10.44",
+			"Albedo": "0.47"
+		},
+		{
+			"Name": "Uranus",
+			"Radius": "25559",
+			"Mass": "8.6810 * 10^25",
+			"Aphelion": "3004419704",
+			"Perihelion": "2748938461",
+			"Orbit_Period": "84.323326 yr",
+			"Rotation_Period": "-0.71833 d",
+			"Surface_Temp": "76",
+			"Axial_Tilt": "97.77°",
+			"Gravity": "8.69",
+			"Albedo": "0.51"
+		},
+		{
+			"Name": "Neptune",
+			"Radius": "24764",
+			"Mass": "1.0243 * 10^26",
+			"Aphelion": "4553946490",
+			"Perihelion": "4452940833",
+			"Orbit_Period": "164.79 yr",
+			"Rotation_Period": "0.6713 d",
+			"Surface_Temp": "72",
+			"Axial_Tilt": "28.32°",
+			"Gravity": "11.15",
+			"Albedo": "0.41"
+		}
+	]
+}

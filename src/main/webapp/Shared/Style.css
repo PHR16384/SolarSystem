@@ -1,0 +1,51 @@
+/* Custom classes: */
+
+.Category {
+	border: 2px dotted rgba(0,0,0,1);
+	margin: 0 auto 40px;
+	padding: 0px;
+	text-align: center;
+	width: 98%;
+}
+.CelBody {
+	border: 2px solid lime;
+	cursor: pointer;
+	display: inline-block;
+	height: 288px;
+	margin: 4px 4px;
+	vertical-align: top;	/* fix for inline blocks not lining up properly; default val is "baseline", lining everything up to the bottom of the images */
+	width: 224px;
+}
+	.CelBody img {
+		height: 200px;
+		max-width: 100%;
+	}
+
+
+/* jQuery Mobile Theme mods: */
+
+.ui-popup {
+	/* padding: 4px; */
+}
+.ui-popup > img {
+	/* float: left; */
+	max-height: 352px;
+	margin: 0 6px 12px;
+	width: 352px;
+}
+.ui-popup-container {
+	position: fixed;
+	width: 720px;
+}
+.ui-popup-screen {
+	position: fixed;
+}
+
+
+/* HTML DOM mods: */
+
+h2, h3 {
+	font-style: italic;
+	text-align: center;
+}
+
