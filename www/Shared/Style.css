@@ -72,7 +72,11 @@ h2, h3 {
 			/* width: 120px; */
 		}
 	.ui-popup-container {
+		position: absolute;
 		width: 224px;
+	}
+	.ui-popup-screen {
+		position: absolute;
 	}
 	
 	h2 {

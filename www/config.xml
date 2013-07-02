@@ -6,10 +6,10 @@
         id        = "com.phr16384.solarsys"
         version   = "1.0.0">
 
-    <name>Solar System</name>
+    <name>PHR_SolarSystem</name>
 
     <description>
-        Sample application that displays Solar System info using jQuery Mobile
+        Sample application that displays JSON data using jQuery Mobile
     </description>
 
     <author href="http://phrhome.apphb.com" email="tjk16384@gmail.com">
