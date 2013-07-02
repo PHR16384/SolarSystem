@@ -6,6 +6,12 @@
 $(document).on("pageinit", function()
 {
 	/*
+	setInterval( function(){
+		checkViewSize();
+	}, 100);
+	*/
+	
+	/*
 		FYI, I like to use $ to prefix variables that hold jQuery objects
 		If I ever use code-generated vars, the syntax'll probably be "$_lowercase_name" or whatever
 	*/
@@ -162,3 +168,13 @@ $(document).on("pageinit", function()
 	}
 	
 });
+
+
+function checkViewSize()
+{
+    var W = window.innerWidth;
+    var H = window.innerHeight;
+
+    $("#ScrSize").html(W + "px W * " + H + "px H");
+}
+
